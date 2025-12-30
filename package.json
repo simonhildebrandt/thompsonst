@@ -1,0 +1,14 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts" :{
+    "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml thompsonst/*.md --pdf-engine=xelatex -o output/booklet.pdf",
+    "watch": "onchange -i 'defaults.yaml' 'metadata.yaml' 'thompsonst/*.md' -- yarn build"
+  },
+  "dependencies": {
+    "marked": "^13.0.3",
+    "onchange": "^7.1.0"
+  }
+}
