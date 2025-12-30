@@ -1,6 +1,6 @@
 # Thompson St
 
-This repo holds an [Obsidian](https://obsidian.md/) vault with tenant notes form the Thompson St Assemble project, and a Pandoc workflow to compile that content into a convenient PDF.
+This repo holds an [Obsidian](https://obsidian.md/) vault with tenant notes form the [Thompson St Assemble project](https://assemble.com.au/projects/15-thompson-street-kensington), and a Pandoc workflow to compile that content into a convenient PDF.
 
 ## Building
 
