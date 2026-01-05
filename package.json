@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml thompsonst/*.md --pdf-engine=xelatex -o output/thompsonst.pdf",
+    "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml -V date=$(date +%Y-%m-%d) thompsonst/*.md --pdf-engine=xelatex -o output/thompsonst.pdf",
     "watch": "onchange -i 'defaults.yaml' 'metadata.yaml' 'thompsonst/*.md' -- yarn build"
   },
   "dependencies": {

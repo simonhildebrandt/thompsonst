@@ -6,7 +6,7 @@ Assemble provides Assemble Connect as a platform for tenants to manage their acc
 
 ## Electricity
 
-Electricity is supplied through Voltio. More information about building's power system (including the solar panels) is avaialble on the website: https://assemble.com.au/projects/15-thompson-street-kensington
+Electricity is supplied through Voltio. More information about building's power system (including the solar panels) is available on the website: https://assemble.com.au/projects/15-thompson-street-kensington
 
 ## Hot Water
 
