@@ -13,3 +13,5 @@ The `.tool-versions` file lists suggested versions of Node and Yarn to run the c
 ## Contributing
 
 Currently the easiest way to contribute is to create a pull request against the Github repo with the suggested changes.
+
+Alternately, [find the markdown file for the chapter you'd like to change](https://github.com/simonhildebrandt/thompsonst/tree/main/thompsonst), modify the text and email it to [simonhildebrandt@gmail.com](mailto:simonhildebrandt@gmail.com).

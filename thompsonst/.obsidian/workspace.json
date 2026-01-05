@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-introduction.md",
+                "file": "02-apartments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-introduction"
+              "title": "02-apartments"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-introduction.md",
+                "file": "02-apartments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-introduction"
+              "title": "Backlinks for 02-apartments"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-introduction.md",
+                "file": "02-apartments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01-introduction"
+              "title": "Outgoing links from 02-apartments"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-introduction.md",
+                "file": "02-apartments.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-introduction"
+              "title": "Outline of 02-apartments"
             }
           }
         ]
@@ -171,10 +171,13 @@
   },
   "active": "42a9d5ed1cdc6900",
   "lastOpenFiles": [
-    "06-community.md",
+    "07-utilities.md",
     "02-facilities.md",
-    "04-utilities.md",
+    "03-facilities.md",
+    "02-apartments.md",
     "01-introduction.md",
+    "06-community.md",
+    "04-utilities.md",
     "05-renting.md",
     "Welcome.md"
   ]

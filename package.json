@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts" :{
-    "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml thompsonst/*.md --pdf-engine=xelatex -o output/booklet.pdf",
+  "scripts": {
+    "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml thompsonst/*.md --pdf-engine=xelatex -o output/thompsonst.pdf",
     "watch": "onchange -i 'defaults.yaml' 'metadata.yaml' 'thompsonst/*.md' -- yarn build"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.958.0",
+    "@aws-sdk/lib-storage": "^3.958.0",
     "marked": "^13.0.3",
-    "onchange": "^7.1.0"
+    "mime-types": "^3.0.2",
+    "onchange": "^7.1.0",
+    "vercel": "^50.1.3"
   }
 }

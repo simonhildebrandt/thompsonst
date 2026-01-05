@@ -2,4 +2,8 @@
 
 ## Purchase Pathway
 
+TODO
+
 ## Renting
+
+TODO
