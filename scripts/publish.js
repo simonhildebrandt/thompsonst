@@ -81,7 +81,7 @@ async function updateIndex(s3) {
     ).sort((a, b) => b.LastModified - a.LastModified);
 
     for (const pdf of pdfs) {
-      const url = `http://thompsonst.requisite.link/${pdf.Key}`;
+      const url = `https://thompsonst.requisite.link/${pdf.Key}`;
       const date = pdf.LastModified.toISOString().split("T")[0];
       indexLines.push(`<li><a href="${url}">${pdf.Key} (${date})</a></li>`);
     }
