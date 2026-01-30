@@ -10,7 +10,7 @@ Electricity is supplied through Voltio. More information about building's power 
 
 ## Hot Water
 
-Hot Water is generated on site with power supplied through Voltio. The quality is modest, with periodic reports from tenants of poor or inconsistent delivery, usually addressed by Assembled when reported to them.
+Hot Water is generated on site with power supplied through Voltio. The quality is modest, with periodic reports from tenants of poor or inconsistent delivery, usually addressed by Assemble when reported to them.
 
 ## Water
 

@@ -5,9 +5,12 @@
   "license": "MIT",
   "scripts": {
     "build": "pandoc --defaults=defaults.yaml --metadata-file=metadata.yaml -V date=$(date +%Y-%m-%d) thompsonst/*.md --pdf-engine=xelatex -o output/thompsonst.pdf",
-    "watch": "onchange -i 'defaults.yaml' 'metadata.yaml' 'thompsonst/*.md' -- yarn build"
+    "watch": "onchange -i 'defaults.yaml' 'metadata.yaml' 'thompsonst/*.md' -- yarn build",
+    "send": "node scripts/publish.js",
+    "everything": "yarn build && yarn send"
   },
   "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.964.0",
     "@aws-sdk/client-s3": "^3.958.0",
     "@aws-sdk/lib-storage": "^3.958.0",
     "marked": "^13.0.3",

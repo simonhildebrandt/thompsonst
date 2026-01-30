@@ -14,6 +14,10 @@ const fs = require("fs");
 const path = require("path");
 const { S3Client, ListObjectsV2Command } = require("@aws-sdk/client-s3");
 const { Upload } = require("@aws-sdk/lib-storage");
+const {
+  CloudFrontClient,
+  CreateInvalidationCommand,
+} = require("@aws-sdk/client-cloudfront");
 const mime = require("mime-types");
 
 const region = process.env.AWS_REGION || "ap-southeast-2"; // change default if you want
@@ -28,9 +32,39 @@ async function main() {
 
   const date = new Date().toISOString().split("T")[0];
   const key = `thompsonst-booklet-${date}.pdf`;
-  await upload(s3, key, body, contentType);
   await upload(s3, `thompsonst-booklet-latest.pdf`, body, contentType);
+  await upload(s3, key, body, contentType);
   await updateIndex(s3);
+  await createInvalidation({
+    distributionId: process.env.CLOUDFRONT_DISTRIBUTION_ID,
+    paths: ["/*"],
+  });
+}
+
+async function createInvalidation({ distributionId, paths }) {
+  if (!distributionId) throw new Error("Missing CloudFront distributionId");
+  if (!paths || paths.length === 0) return null;
+
+  // CloudFront is a global service; region is not required.
+  const cf = new CloudFrontClient({});
+
+  const callerReference = `${Date.now()}-${Math.random()
+    .toString(16)
+    .slice(2)}`;
+
+  const cmd = new CreateInvalidationCommand({
+    DistributionId: distributionId,
+    InvalidationBatch: {
+      CallerReference: callerReference,
+      Paths: {
+        Quantity: paths.length,
+        Items: paths,
+      },
+    },
+  });
+
+  const res = await cf.send(cmd);
+  return res.Invalidation; // includes Id + Status
 }
 
 async function upload(s3, key, body, contentType) {
