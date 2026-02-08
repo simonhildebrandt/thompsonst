@@ -4,6 +4,8 @@ Thompson St apartments are arranged across 7 floors in a 'C' shape around a cent
 
 Apartments feature built-in reverse-cycle [Airconditioners], small closet 'European-style' [Laundries] and [Balconies] - other points of interest are the [Door Closers] and the [Built-In Robe Shelving]. (For information about the built-in wifi, look at [Internet].)
 
+Note: the '15 Thompson St' address was created for this building (causing some initial challenges with post and other services expecting legitimate postal addresses) - the address _86 Stubbs St_ maps neatly to the central staircase on the west side of the building, and works well for visitors/taxi pickups, etc, that you don't want negotiating the crowded conditions of Thompson St.
+
 ## Airconditioners
 
 Thompson St air conditioners are Fujitsu split-systems, with the main unit mounted on the roof of the building, plumbed down to each apartment individually, with one or more devices installed in bedrooms and/or living areas.
@@ -20,8 +22,6 @@ The primary surprise with the in-apartment laundries is: the light (which engage
 
 Balconies have a 'flow-under' tiling solution similar to other common areas like the [Pocket Park]. Water _does_ pass under the tiles, it _can_ get dirty/smelly under there, and Assemble _does_ consider it your responsibility to carefully lever them up and clean underneath. They provide no guidance on how to do this safely, or what tools to use.
 
-TODO guidelines regarding appropriate balcony use
-
 ## Door Closers
 
 A familiar sound around the building is the crash of an apartment door slamming closed. Each front door is fitted with a closer, but they're often configured very aggressively. This video includes guidance on how to tweak them: https://www.youtube.com/watch?v=3-Q87w8uhwg
@@ -32,7 +32,7 @@ Note: I'm not kidding about 'aggressively' - ensure children and pets are kept s
 
 ### TL;DR
 
-For various reasons the shelves in your built-in robes might be missing or an unexpected configuration. Ask in the [WhatsApp Group] for help finding shelves that suit you if you don't have ones that serve your needs.
+For various reasons the shelves in your built-in robes might be missing or an unexpected configuration. Ask in the [WhatsApp Community] for help finding shelves that suit you if you don't have ones that serve your needs.
 
 ### History
 
@@ -48,4 +48,4 @@ Ultimately (possibly shamed by the the mix of complaints and antagonistic entrep
 
 As a result of the above, we're now in quite a strange situation. Despite largely homogeneous design throughout the building, the status of the built-in robe shelves in any given apartment is basically a dice roll. Assemble eventually provided shelves for every apartment, but did the tenants at the time pick them up? Did they install any/some/all of them? Did they purchase other shelves, or baskets, and use them instead? Having potentially paid their own money for shelves early on, do some tenants feel entitled to take those shelves with them, leaving the space empty? (That seems to have been reported by at least one new tenant recently.)
 
-Assemble hasn't audited the current status, and offers no guidance on what to do if you have too many/too few/inconvenient shelving. The community has pools of shelves and baskets that they continue to offer under various arrangements - please jump into the [WhatsApp Group] and ask for help if you need it.
+Assemble hasn't audited the current status, and offers no guidance on what to do if you have too many/too few/inconvenient shelving. The community has pools of shelves and baskets that they continue to offer under various arrangements - please jump into the [WhatsApp Community] and ask for help if you need it.

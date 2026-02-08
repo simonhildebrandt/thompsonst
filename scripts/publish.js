@@ -111,7 +111,7 @@ async function updateIndex(s3) {
   const indexLines = [];
   if (response.Contents) {
     const pdfs = response.Contents.filter((obj) =>
-      obj.Key.endsWith(".pdf")
+      obj.Key.endsWith(".pdf"),
     ).sort((a, b) => b.LastModified - a.LastModified);
 
     for (const pdf of pdfs) {
@@ -133,6 +133,7 @@ async function updateIndex(s3) {
   <h1>Thompson St Booklet Downloads</h1>
   <ul>
     ${indexLines.join("\n    ")}
+    <li><a href="TSK_Guest-house-guide-policy.pdf">TSK_Guest-house-guide-policy.pdf </a></li>
   </ul>
 </body>
 </html>`;

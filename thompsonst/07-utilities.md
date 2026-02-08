@@ -22,7 +22,7 @@ When first delivered, the building didn't have individual water meters (possibly
 
 ### The Good
 
-Thompson St comes configured with a very newbie-friendly integrated internet solution - each apartment has its own built-in wifi access point, connected to the embedded infrastructure. This also includes public access points in a few places, and the ability to log into your own account in shared spaces like the common area.
+Thompson St comes configured with a very newbie-friendly integrated internet solution - each apartment has its own built-in wifi access point, connected to the embedded infrastructure. This also includes public access points in a few places and the ability to log into your own account in shared spaces like the [Common Room].
 
 ### The Bad
 
