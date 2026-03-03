@@ -2,7 +2,7 @@
 
 ## Assemble Connect
 
-Assemble provides Assemble Connect as a platform for tenants to manage their accounts in the embedded power, internet and hot water services.
+Assemble provides Assemble Connect as a platform for tenants to manage their accounts in the embedded power, internet and hot water services. It's accessible via the Assemble App, or online at [assembleconnect.com.au](https://assembleconnect.com.au).
 
 ## Electricity
 

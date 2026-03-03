@@ -1,15 +1,3 @@
-// import { put } from "@vercel/blob";
-// import File from "fs-extra";
-
-// const filename = "thompsonst.pdf";
-// const file = File.readFileSync(`./output/${filename}`);
-// const blob = await put(filename, file, {
-//   access: "public",
-//   allowOverwrite: true,
-// });
-
-// console.log("Blob URL:", blob.url);
-
 const fs = require("fs");
 const path = require("path");
 const { S3Client, ListObjectsV2Command } = require("@aws-sdk/client-s3");
@@ -32,8 +20,8 @@ async function main() {
 
   const date = new Date().toISOString().split("T")[0];
   const key = `thompsonst-booklet-${date}.pdf`;
-  await upload(s3, `thompsonst-booklet-latest.pdf`, body, contentType);
   await upload(s3, key, body, contentType);
+  await upload(s3, `thompsonst-booklet-latest.pdf`, body, contentType);
   await updateIndex(s3);
   await createInvalidation({
     distributionId: process.env.CLOUDFRONT_DISTRIBUTION_ID,
@@ -110,8 +98,9 @@ async function updateIndex(s3) {
 
   const indexLines = [];
   if (response.Contents) {
-    const pdfs = response.Contents.filter((obj) =>
-      obj.Key.endsWith(".pdf"),
+    const pdfs = response.Contents.filter(
+      (obj) =>
+        obj.Key.startsWith("thompsonst-booklet-") && obj.Key.endsWith(".pdf"),
     ).sort((a, b) => b.LastModified - a.LastModified);
 
     for (const pdf of pdfs) {
@@ -134,6 +123,7 @@ async function updateIndex(s3) {
   <ul>
     ${indexLines.join("\n    ")}
     <li><a href="TSK_Guest-house-guide-policy.pdf">TSK_Guest-house-guide-policy.pdf </a></li>
+    <li><a href="zine.png">zine.png</a></li>
   </ul>
 </body>
 </html>`;

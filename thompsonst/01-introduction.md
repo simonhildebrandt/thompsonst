@@ -11,3 +11,19 @@ Curiously, the building also includes Assemble's own offices (nominally labelled
 As with all new apartment buildings, Thompson St has a few idiosyncracies. This guide was created to help answer a few of the more common questions we regularly see asked (particularly in the [WhatsApp Community].)
 
 This guide isn't official, and isn't connected to Assemble in any way. We'll try to keep it as up to date as possible, and always recommend [checking for the newest version](https://thompsonst.requisite.link/index.html). Fixes and ideas for new sections very welcome! The source material to build (or improve) this document is available [here](https://github.com/simonhildebrandt/thompsonst).
+
+## Quick details
+
+Before anything else, here's a few quick contact options.
+
+- **Assemble building-specific contact email:**
+
+  thompson@assemblecommunities.com
+
+- **Assemble emergency number:**
+
+  03 9070 0999
+
+- **Residents Sub Committee email:**
+
+  1527thompsonst@gmail.com

@@ -24,9 +24,21 @@ Balconies have a 'flow-under' tiling solution similar to other common areas like
 
 ## Door Closers
 
-A familiar sound around the building is the crash of an apartment door slamming closed. Each front door is fitted with a closer, but they're often configured very aggressively. This video includes guidance on how to tweak them: https://www.youtube.com/watch?v=3-Q87w8uhwg
+A familiar sound around the building is the crash of an apartment door slamming closed. Each front door is fitted with a closer, but they're often configured very aggressively. This video includes guidance on how to tweak them: https://www.youtube.com/watch?v=EwyMbfPh8Ig
 
 Note: I'm not kidding about 'aggressively' - ensure children and pets are kept safe around closing doors, particularly in high wind.
+
+## Drains
+
+### Sinks and Baths
+
+The sink and bath drains use spring-loaded plugs that sit in the top of the drain, which can be lifted out for cleaning and tuning. A known issue with them is the thin plastic ring that provides the seal when the plug is engaged - it can easily come loose and then the plug will no longer seal. It can usually be found in the body of the plug, and carefully reseated.
+
+### Shower drains
+
+Shower drains are covered with a square panel, which sits on four plastic feet, which clip on around the corners of the panel.
+
+If you've ever tried to lift and clean around one of these panels, there's a good chance you've had one of these feet pop off unexpectedly - and if that happens, there's a decent chance you then lost it down the shower drain. This is a common experience, and generally tenants seem to find they get better drainage (and easier access) with one less foot; while we haven't been able to identify a supplier for these feet, if you're concerned, some enterprising tenants have been 3D printing replacements - maybe asking in the [WhatsApp Community].
 
 ## Built-In Robe Shelving
 
