@@ -12,7 +12,7 @@ A large portion of the bottom of the 27 side of the building is taken up with a 
 
 The two halves are independently bookable via the Assemble app, and can be isolated from each other using a sliding divider wall.
 
-Note: mobile signal is very poor in this part of the building, but the internet can be accessed via the provided access points. Set a password in the Assemble app - in the Assemble Connect section click the kebab menu (three vertical dots) and click 'support'.
+Note: mobile signal is very poor in this part of the building, but the internet can be accessed via the provided access points. Set a password in the Assemble app - in the Assemble Connect section click the kebab menu (three vertical dots) and click 'support' - you should then be able to use your Assemble Connect email address and that password to connect.
 
 ## Mail rooms
 

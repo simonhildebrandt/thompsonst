@@ -61,3 +61,9 @@ Ultimately (possibly shamed by the the mix of complaints and antagonistic entrep
 As a result of the above, we're now in quite a strange situation. Despite largely homogeneous design throughout the building, the status of the built-in robe shelves in any given apartment is basically a dice roll. Assemble eventually provided shelves for every apartment, but did the tenants at the time pick them up? Did they install any/some/all of them? Did they purchase other shelves, or baskets, and use them instead? Having potentially paid their own money for shelves early on, do some tenants feel entitled to take those shelves with them, leaving the space empty? (That seems to have been reported by at least one new tenant recently.)
 
 Assemble hasn't audited the current status, and offers no guidance on what to do if you have too many/too few/inconvenient shelving. The community has pools of shelves and baskets that they continue to offer under various arrangements - please jump into the [WhatsApp Community] and ask for help if you need it.
+
+## Plenum boxes
+
+Apartments have ceiling ducts that connect the bathroom and laundry exhaust fans, and the kitchen range hoods, to the outside world. The ducts join together in something called a plenum box - "a HVAC component used to manage airflow distribution between ductwork and room-side diffusers or grilles." These boxes have 'backflow' doors on them to maintain even pressure, and to prevent wind blowing back into the ducting.
+
+After initially moving in, though, several tenants discovered that (through poor design or installation) these backflow doors knocked, loudly, during any kinds of wind. After a long back-and-forth with Assemble contractors quietly addressed the issue - by breaking the doors. Anecdotaly, the contractors are reported to have admitted that actually, most of the backflow doors were _already_ broken - the ones they needed to address individually where the few still acting 'as intended'.
